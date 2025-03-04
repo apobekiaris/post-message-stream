@@ -35,6 +35,7 @@ export abstract class BasePostMessageStream extends Duplex {
     this._init = false;
     this._haveSyn = false;
     this._log = () => null;
+    console.log("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
   }
 
   /**
